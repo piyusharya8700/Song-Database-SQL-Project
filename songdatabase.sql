@@ -18,3 +18,8 @@ select * from invoice order by total desc limit 3
 --Write a query that returns one city that has the highest sum of invoice totals. Return both city name & sum of all invoice totals
 
 select billing_city, sum(total) as total_money from invoice group by billing_city order by total_money desc limit 1
+
+
+-- Q5 who is the best customer? The person who have spent the most money will be declared the best customer. Write a query that returns the person who has spent the most money
+
+select first_name, last_name, sum(total) as total_spent from customer c join invoice i on c.customer_id=i.customer_id group by first_name, last_name order by total_spent desc
