@@ -4,17 +4,17 @@
 
 An end-to-end data analytics project using PostgreSQL to query and analyze customer transactional data, employee structures, and international checkout patterns. This project focuses on converting raw relational tables into strategic, data-backed operational business intelligence.
 
-## 📁 Repository Structure
+## Repository Structure
 * `Song_Store_database.sql`: The main database schema configuration and script tracking containing raw organizational logs.
 * `images/songdata1.png`: Workflow execution screenshot tracking core transactional queries.
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Database Management System:** PostgreSQL
 * **Interface Tool:** pgAdmin 4
 
 ---
 
-## 🔬 Core Queries & Strategic Business Logic
+## Core Queries & Strategic Business Logic
 
 To extract immediate operational value from the transaction system, I built out targeted analytical queries focusing on core corporate metrics:
 
@@ -24,14 +24,14 @@ To extract immediate operational value from the transaction system, I built out 
 4. **Localized Promotional Targeting:** Consolidating regional billing data (`billing_city`) against financial metrics like `SUM(total)` to discover the single highest revenue-generating city in the entire log.
 5. **Top Consumer Profiling (Customer Lifetime Value):** Constructing a multi-table `JOIN` query connecting the `customer` and `invoice` tables on shared relational keys, aggregating absolute expenditures using `SUM(total)`, and applying a descending filter to capture the single highest-value buyer.
 
-### 📊 Query Script Reference
+### Query Script Reference
 The execution and validation of these business questions are logged in the pgAdmin script below:
 
 ![Strategic Operations Queries](images/songdata1.png)
 
 ---
 
-## 🧠 Core Business Insights Unlocked
+## Core Business Insights Unlocked
 
 * **Command Transparency:** Querying administrative structural tables provides immediate organizational visibility, clarifying management paths based on tracking data rather than manual rosters.
 * **Logistical Prioritization:** Analyzing order frequencies across national borders highlights major target markets, indicating exactly where customer baseline volume remains dominant for logistics or distribution scale adjustments.
