@@ -37,3 +37,5 @@ The execution and validation of these business questions are logged in the pgAdm
 * **Logistical Prioritization:** Analyzing order frequencies across national borders highlights major target markets, indicating exactly where customer baseline volume remains dominant for logistics or distribution scale adjustments.
 * **Targeted Spend Optimization:** Running aggregate localization scripts strips the guesswork out of marketing budgets. By identifying the exact city generating the highest baseline financial footprint, the company can confidently fund and deploy physical initiatives—like local music festivals—directly into high-conversion hot spots.
 * **Customer Lifetime Value (CLV) Maximization:** Slicing through granular consumer profiles highlights the store's single most valuable customer. Isolating this high-spending tier gives management a clear framework for executing personalized customer relationship management (CRM) strategies, VIP loyalty systems, and high-tier retention campaigns.
+
+
